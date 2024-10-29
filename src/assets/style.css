@@ -1,0 +1,74 @@
+/* src/assets/styles.css */
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px !important;
+    background-color: #343a40;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  /* Main content area should fill the remaining space */
+  .content-area {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  /* Adjust for mobile responsiveness */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Full-width on small screens */
+      position: static;
+    }
+    .content-area {
+      margin-top: 20px;
+    }
+  }
+  .sidebar .nav-link {
+    color: #adb5bd;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .sidebar .nav-link.active {
+    color: white;
+    font-weight: bold;
+    background-color: #495057;
+    border-radius: 4px;
+  }
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Table Styling */
+  .table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f3f5;
+  }
+  
+  /* Buttons */
+  .btn {
+    margin-right: 5px;
+  }
+  
